@@ -194,7 +194,7 @@ if($successMessage){
 
                     <div class="row contact__main ">
                         <div class="col-eight tab-full contact__form ">
-                            <form name="contactForm " id="contactForm " method="POST" action="">
+                            <form name="contactForm " id="contactForm " method="POST" action="sendEmail.php">
                                 <fieldset>
 
                                     <div class="form-field ">
