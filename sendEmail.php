@@ -6,7 +6,7 @@
 
 // ini_set('SMTP', "server.com");
 // ini_set('smtp_port', "25");
-// ini_set('sendmail_from', "adelakuntobiloba1@gmail.com");
+// ini_set('sendmail_from', "praise.babalola70@gmail.com");
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -44,7 +44,7 @@ if (isset($_POST['submitBtn'])) {
 
 
     if (empty($errors)) {
-        $toEmail = 'adelakuntobiloba1@gmail.com';
+        $toEmail = 'praise.babalola70@gmail.com';
         $emailSubject = 'New email from your contant form';
         
         // $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
@@ -60,7 +60,7 @@ if (isset($_POST['submitBtn'])) {
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
             $mail->Username   = 'praise.babalola70@gmail.com';                     //SMTP username
-            $mail->Password   = '';                               //SMTP password
+            $mail->Password   = 'Babalola21!@';                               //SMTP password
             $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
             $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
         
